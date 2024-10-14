@@ -81,3 +81,9 @@
     python run_all.py train.py --device 0 --cfg cfg/exps/benchmark/cifar/*.yaml
     ```
     </details>
+
+## References
+
+The Mamba architecture was introduced in [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/abs/2312.00752) by [Albert Gu](https://twitter.com/_albertgu?lang=en) and [Tri Dao](https://twitter.com/tri_dao?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor).
+
+The official implementation is here: https://github.com/state-spaces/mamba/tree/main

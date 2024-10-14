@@ -1,0 +1,12 @@
+batch_size: 4
+data: dart
+eval_gen:
+  max_length: 1024
+  min_length: 5
+  num_beams: 5
+learning_rate: 0.01
+model: state-spaces/mamba-130m
+no_save: false
+num_epochs: 10
+peft: cfg/peft/lora/r8/lora_dtproj.json
+prec: bf16

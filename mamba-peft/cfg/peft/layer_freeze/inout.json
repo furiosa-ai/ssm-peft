@@ -1,0 +1,7 @@
+{
+    "peft_type": "LAYER_FREEZE",
+    "trainable_layers": [
+        "in_proj",
+        "out_proj"
+    ]
+  }

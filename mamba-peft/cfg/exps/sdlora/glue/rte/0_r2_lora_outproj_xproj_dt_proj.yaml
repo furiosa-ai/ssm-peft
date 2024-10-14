@@ -1,0 +1,9 @@
+batch_size: 4
+data: glue-tvt_rte
+learning_rate: 0.001
+model: state-spaces/mamba-130m
+no_save: false
+num_epochs: 10
+peft: cfg/peft/lora/r2/lora_outproj_xproj_dt_proj.json
+prec: fp32
+seed: 42

@@ -1,0 +1,9 @@
+batch_size: 4
+data: glue-tvt_cola
+learning_rate: 0.001
+model: state-spaces/mamba-130m
+no_save: false
+num_epochs: 10
+peft: cfg/peft/sd_lora/500it/n0.75_d0.99.json
+prec: fp32
+seed: 42

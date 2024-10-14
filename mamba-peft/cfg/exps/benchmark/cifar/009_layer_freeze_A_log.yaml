@@ -1,0 +1,8 @@
+batch_size: 4
+data: cifar-tvt
+learning_rate: 0.02
+model: state-spaces/mamba-130m
+no_save: false
+num_epochs: 5
+peft: cfg/peft/layer_freeze/A_log.json
+prec: bf16

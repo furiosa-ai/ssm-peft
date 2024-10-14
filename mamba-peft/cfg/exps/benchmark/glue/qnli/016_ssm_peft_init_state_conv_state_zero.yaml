@@ -1,0 +1,8 @@
+batch_size: 4
+data: glue-tvt_qnli
+learning_rate: 0.001
+model: state-spaces/mamba-130m
+no_save: false
+num_epochs: 10
+peft: cfg/peft/ssm_peft/init_state_conv_state_zero.json
+prec: bf16

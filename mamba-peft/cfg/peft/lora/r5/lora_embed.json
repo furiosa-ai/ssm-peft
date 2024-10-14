@@ -1,0 +1,28 @@
+{
+    "target_modules": [
+      "embedding"
+    ],
+    "r": 5,
+    "lora_alpha": 5,
+    "lora_dropout": 0.1,
+
+    "alpha_pattern": {},
+    "auto_mapping": null,
+    "base_model_name_or_path": null,
+    "bias": "none",
+    "fan_in_fan_out": false,
+    "inference_mode": false,
+    "init_lora_weights": true,
+    "layers_pattern": null,
+    "layers_to_transform": null,
+    "loftq_config": {},
+    "megatron_config": null,
+    "megatron_core": "megatron.core",
+    "modules_to_save": null,
+    "peft_type": "LORA",
+    "rank_pattern": {},
+    "revision": null,
+    "task_type": "SEQ_2_SEQ_LM",
+    "use_dora": false,
+    "use_rslora": false
+  }

@@ -1,0 +1,10 @@
+{
+    "peft_type": "LAYER_FREEZE",
+    "trainable_layers": [
+        "D",
+        "norm.weight",
+        "norm_f.weight",
+        "conv1d.bias",
+        "dt_proj.bias"
+    ]
+  }

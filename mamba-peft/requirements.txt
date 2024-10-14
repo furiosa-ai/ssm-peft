@@ -1,0 +1,19 @@
+evaluate
+datasets
+nltk
+pandas
+scipy
+scikit-learn
+pyfaidx
+transformers==4.39.3
+rouge-score
+records
+babel
+peft==0.9.0
+einops
+accelerate
+pillow
+wandb
+causal-conv1d>=1.2.0
+mamba-ssm==2.0.3  # for selective_scan_cuda
+py7zr

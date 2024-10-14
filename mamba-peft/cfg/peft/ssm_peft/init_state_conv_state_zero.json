@@ -1,0 +1,9 @@
+{
+    "peft_type": "SSMPEFT",
+    "scan": {
+        "type": "init_state",
+        "init": "zero"
+    },
+    "conv_init_state": true,
+    "conv_init_state_init": "zero"
+}

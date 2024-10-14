@@ -1,0 +1,19 @@
+{
+    "peft_type": "SD_LORA",
+    "num_zero": {
+        "state": 0,
+        "channel": 0
+    },
+    "num_freeze": {
+        "state": 0.75,
+        "channel": 0.99
+    },
+    "target_modules": [
+        "A_log",
+        "x_proj_B",
+        "x_proj_C",
+        "out_proj"
+    ],
+    "proj_lora_r": 8,
+    "num_warmup_it": 248
+}

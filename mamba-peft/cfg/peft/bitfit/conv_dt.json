@@ -1,0 +1,7 @@
+{
+    "peft_type": "BITFIT",
+    "target_modules": [
+        "conv1d",
+        "dt_proj"
+    ]
+}

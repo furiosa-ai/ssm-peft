@@ -1,0 +1,7 @@
+{
+    "peft_type": "SSMPEFT",
+    "scan": {
+        "type": "init_state",
+        "init": "zero"
+    }
+}

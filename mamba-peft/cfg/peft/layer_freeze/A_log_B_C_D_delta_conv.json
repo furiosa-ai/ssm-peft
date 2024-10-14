@@ -1,0 +1,12 @@
+{
+    "peft_type": "LAYER_FREEZE",
+    "trainable_layers": [
+        "A_log",
+        "D",
+        "x_proj_B",
+        "x_proj_C",
+        "x_proj_dt",
+        "dt_proj",
+        "conv1d"
+    ]
+  }

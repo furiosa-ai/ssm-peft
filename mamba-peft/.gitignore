@@ -1,7 +1,6 @@
 /.vscode
 /data/
 /mnist/
-/src/
 /mamba-chat*/
 __pycache__
 checkpoint-*

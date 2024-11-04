@@ -21,8 +21,9 @@
 
 # News  🚀
 
-* [10/11/24] Our paper is available on <a href="https://arxiv.org/abs/2410.09016">arxiv</a>!
-* [10/9/24] Our paper is accepted by NeurIPS 2024 Workshop FITML!
+* [11/1/24] Our paper is selected for oral presentation (5 of 92 accepted papers) at NeurIPS 2024 Workshop FITML! 🎉🎉
+* [10/11/24] Our paper is available on <a href="https://arxiv.org/abs/2410.09016">arXiv</a>!
+* [10/9/24] Our paper is accepted by NeurIPS 2024 Workshop FITML! 🎉
 
 # Usage
 

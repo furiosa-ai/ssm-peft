@@ -21,13 +21,21 @@
 
 # News  🚀
 
-* [11/1/24] Our paper is selected for oral presentation (5 of 92 accepted papers) at NeurIPS 2024 Workshop FITML! 🎉🎉
+* [11/1/24] Our paper is selected for oral presentation (5 of 92 accepted papers) at <a href="https://sites.google.com/view/neurips2024-ftw/home">NeurIPS 2024 Workshop FITML</a>! 🎉🎉
 * [10/11/24] Our paper is available on <a href="https://arxiv.org/abs/2410.09016">arXiv</a>!
-* [10/9/24] Our paper is accepted by NeurIPS 2024 Workshop FITML! 🎉
+* [10/9/24] Our paper is accepted by <a href="https://sites.google.com/view/neurips2024-ftw/home">NeurIPS 2024 Workshop FITML</a>! 🎉
 
 # Usage
 
 * PEFT implementation on **S4**: Refer to the [S4 folder](./S4).
 * PEFT implementation on **Mamba**: Refer to the [mamba-peft folder](./mamba-peft).
 
-
+# Citation
+```tex
+@article{galim2024parameter,
+  title={Parameter-Efficient Fine-Tuning of State Space Models},
+  author={Galim, Kevin and Kang, Wonjun and Zeng, Yuchen and Koo, Hyung Il and Lee, Kangwook},
+  journal={arXiv preprint arXiv:2410.09016},
+  year={2024}
+}
+```

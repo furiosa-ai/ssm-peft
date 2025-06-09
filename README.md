@@ -21,10 +21,10 @@
 
 # News  🚀
 
-* [5/1/25] Our paper has been accepted to ICML 2025! 🎉🎉🎉
-* [11/1/24] Our paper is selected for oral presentation (5 of 92 accepted papers) at <a href="https://sites.google.com/view/neurips2024-ftw/home">NeurIPS 2024 Workshop FITML</a>! 🎉🎉
+* [05/01/25] Our paper has been accepted to <a href="https://icml.cc/virtual/2025/poster/46398">ICML 2025</a>! 🎉🎉🎉
+* [11/01/24] Our paper is selected for oral presentation (5 of 92 accepted papers) at <a href="https://sites.google.com/view/neurips2024-ftw/home">NeurIPS 2024 Workshop FITML</a>! 🎉🎉
 * [10/11/24] Our paper is available on <a href="https://arxiv.org/abs/2410.09016">arXiv</a>!
-* [10/9/24] Our paper has been accepted to <a href="https://sites.google.com/view/neurips2024-ftw/home">NeurIPS 2024 Workshop FITML</a>! 🎉
+* [10/09/24] Our paper has been accepted to <a href="https://sites.google.com/view/neurips2024-ftw/home">NeurIPS 2024 Workshop FITML</a>! 🎉
 
 
 # Usage

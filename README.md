@@ -17,13 +17,14 @@
 <img src = "https://github.com/user-attachments/assets/b318c473-cb41-4d88-9e83-d9e1ac03b620" width="30%" height="30%">
 </p>
 
-**Abstract**: Deep State Space Models (SSMs), such as Mamba (Gu & Dao, 2024), have emerged as powerful tools for language modeling, offering high performance with efficient inference and linear scaling in sequence length. However, the application of parameter-efficient fine-tuning (PEFT) methods to SSM-based models remains largely unexplored. This paper aims to systematically study two key questions: (i) How do existing PEFT methods perform on SSM-based models? (ii) Which modules are most effective for fine-tuning? We conduct an empirical benchmark of four basic PEFT methods on SSM-based models. Our findings reveal that prompt-based methods (e.g., prefix-tuning) are no longer effective, an empirical result further supported by theoretical analysis. In contrast, LoRA remains effective for SSM-based models. We further investigate the optimal application of LoRA within these models, demonstrating both theoretically and experimentally that applying LoRA to linear projection matrices without modifying SSM modules yields the best results, as LoRA is not effective at tuning SSM modules. To further improve performance, we introduce LoRA with Selective Dimension tuning (SDLoRA), which selectively updates certain channels and states on SSM modules while applying LoRA to linear projection matrices. Extensive experimental results show that this approach outperforms standard LoRA.
+**Abstract**: Deep State Space Models (SSMs), such as Mamba (Gu & Dao, 2024), have become powerful tools for language modeling, offering high performance and linear scalability with sequence length. However, the application of parameter-efficient fine-tuning (PEFT) methods to SSM-based models remains largely underexplored. We start by investigating two fundamental questions on existing PEFT methods: (i) How do they perform on SSM-based models? (ii) Which parameters should they target for optimal results? Our analysis shows that LoRA and its variants consistently outperform all other PEFT methods. While LoRA is effective for linear projection matrices, it fails on SSM modules—yet still outperforms other methods applicable to SSMs, indicating their limitations. This underscores the need for a specialized SSM tuning approach. To address this, we propose Sparse Dimension Tuning (SDT), a PEFT method tailored for SSM modules. Combining SDT for SSMs with LoRA for linear projection matrices, we achieve state-of-the-art performance across extensive experiments.
 
 # News  🚀
 
 * [11/1/24] Our paper is selected for oral presentation (5 of 92 accepted papers) at <a href="https://sites.google.com/view/neurips2024-ftw/home">NeurIPS 2024 Workshop FITML</a>! 🎉🎉
 * [10/11/24] Our paper is available on <a href="https://arxiv.org/abs/2410.09016">arXiv</a>!
 * [10/9/24] Our paper is accepted by <a href="https://sites.google.com/view/neurips2024-ftw/home">NeurIPS 2024 Workshop FITML</a>! 🎉
+* [5/1/25] Our paper has been accepted to ICML 2025! 🎉
 
 # Usage
 
